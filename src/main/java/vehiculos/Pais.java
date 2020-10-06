@@ -8,6 +8,7 @@ public class Pais {
 	private static ArrayList<Pais> paises= new ArrayList<>();
 	public Pais(String nombre) {
 		this.nombre=nombre;
+		paises.add(this);
 	}
 
 	public String getNombre() {
