@@ -29,6 +29,12 @@ public class Vehiculo {
 		public static int getCantidadVehiculos() {
 			return CantidadVehiculos;
 		}
+		
+		public static void setCantidadVehiculos(int cantidadVehiculos) {
+			CantidadVehiculos = cantidadVehiculos;
+		}
+
+
 		public static String vehiculosPorTipo() {
 			String  comp = "Automoviles: "+Automovil.Caut+"\n" + 
 					"Camionetas: "+Camioneta.Ccam+"\n" + 
