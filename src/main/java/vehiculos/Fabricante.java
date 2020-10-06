@@ -7,7 +7,7 @@ public class Fabricante {
 	private Pais pais;
 	private static ArrayList<Fabricante> fabricantes= new ArrayList<>();
 	ArrayList<Vehiculo> vehiculos= new ArrayList<>();
-	Fabricante(String nombre,Pais pais){
+	public Fabricante(String nombre,Pais pais){
 		this.nombre=nombre;
 		this.pais=pais;
 		Fabricante.fabricantes.add(this);
